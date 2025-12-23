@@ -1,0 +1,4 @@
+The YOLO11m weights file exceeds GitHub's file size limit.
+You can download the trained model (best.pt) from the following external link:
+
+https://drive.google.com/file/d/1skd4wv42ymBqNDqwyX7ClE7GzMfsf_18/view?usp=drive_link
