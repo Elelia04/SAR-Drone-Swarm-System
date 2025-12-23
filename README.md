@@ -34,7 +34,7 @@ We compared our models against the reference paper results. Both our strategies 
 | :--- | :---: | :---: | :---: | :---: |
 | **Reference Paper [1]** | 0.842 | 0.743 | 0.802 | 0.388 |
 | **YOLOv8s (Ours)** | 0.838 | 0.747 | **0.826** | **0.497** |
-| **SARD + YOLO11m (Ours)**| **0.921** | **0.812** | **0.881** | **0.549** |
+| **SARD + YOLO11m (Ours)**| **0.915** | **0.816** | **0.884** | **0.555** |
 
 > **Analysis:** The Enriched strategy (YOLO11m) achieves the best overall metrics in a controlled environment, significantly outperforming the literature (+7.9% mAP).
 
@@ -44,8 +44,8 @@ In the final operational simulation (unbalanced test set), we prioritized **reca
 | Model Strategy | Precision | Recall (Sensitivity) | mAP@50 |
 | :--- | :---: | :---: | :---: |
 | **YOLOv8s (Baseline)** | 0.649 | **0.681** | 0.672 |
-| SARD + YOLO8n | 0.670 | 0.623 | 0.661 |
-| SARD + YOLO11m | 0.632 | 0.649 | 0.663 |
+| SARD + YOLO8n | 0.673 | 0.625 | 0.661 |
+| SARD + YOLO11m | 0.635 | 0.646 | 0.659 |
 
 ## How to Run
 
