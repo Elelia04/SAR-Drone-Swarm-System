@@ -39,7 +39,7 @@ We compared our models against the reference paper results. Both our strategies 
 > **Analysis:** The Enriched strategy (YOLO11m) achieves the best overall metrics in a controlled environment, significantly outperforming the literature (+7.9% mAP).
 
 ### 2. Operational Test Set: The Reality Check
-In the final operational simulation (unbalanced test set), we prioritized **recall** (finding missing persons) over recision.
+In the final operational simulation (unbalanced test set), we prioritized **recall** (finding missing persons) over precision.
 
 | Model Strategy | Precision | Recall (Sensitivity) | mAP@50 |
 | :--- | :---: | :---: | :---: |
